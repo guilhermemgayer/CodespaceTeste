@@ -1,9 +1,9 @@
 rodar = 1
 while rodar == 1:
-    num = input("Advinhe o número: ")
+    num = int(input("Advinhe o número: "))
     if num == 67:
-        print(num)
-        print("CORRETO!")
+        print("CERTO")
+        rodar = 0
     else:
         print("ERRADO.")
         tentar = input("Tentar novamente? [S/N]: ")
